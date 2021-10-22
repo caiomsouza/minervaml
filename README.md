@@ -2,6 +2,11 @@
 
 This Python Package is an example.
 
+# How to install from GitHub
+```
+pip install https://github.com/caiomsouza/minervaml/releases/download/TRUNK/minervaml-0.0.1.tar.gz
+```
+
 # How to download the package minervaml-0.0.1.tar.gz
 https://github.com/caiomsouza/minervaml/raw/main/dist/minervaml-0.0.1.tar.gz
 
