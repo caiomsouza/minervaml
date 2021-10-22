@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: minervaml
+Version: 0.0.1
+Summary: Minerval ML
+Home-page: https://github.com/caiomsouza/minervaml
+Author: Caio Moreno
+Author-email: caiomsouza@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/caiomsouza/minervaml/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Minerva ML
+
+Used this: https://packaging.python.org/tutorials/packaging-projects/
+
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+

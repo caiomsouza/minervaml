@@ -1,0 +1,141 @@
+(base) C:\Users\camoren>py -m pip install --upgrade build
+'py' is not recognized as an internal or external command,
+operable program or batch file.
+
+(base) C:\Users\camoren>pip install pandas
+Requirement already satisfied: pandas in c:\users\camoren\anaconda3\lib\site-packages (1.2.4)
+Requirement already satisfied: numpy>=1.16.5 in c:\users\camoren\anaconda3\lib\site-packages (from pandas) (1.20.1)
+Requirement already satisfied: pytz>=2017.3 in c:\users\camoren\anaconda3\lib\site-packages (from pandas) (2021.1)
+Requirement already satisfied: python-dateutil>=2.7.3 in c:\users\camoren\anaconda3\lib\site-packages (from pandas) (2.8.1)
+Requirement already satisfied: six>=1.5 in c:\users\camoren\anaconda3\lib\site-packages (from python-dateutil>=2.7.3->pandas) (1.15.0)
+
+(base) C:\Users\camoren>pip install --upgrade build
+Collecting build
+  Downloading build-0.7.0-py3-none-any.whl (16 kB)
+Requirement already satisfied: colorama in c:\users\camoren\anaconda3\lib\site-packages (from build) (0.4.4)
+Collecting pep517>=0.9.1
+  Downloading pep517-0.12.0-py2.py3-none-any.whl (19 kB)
+Collecting tomli>=1.0.0
+  Downloading tomli-1.2.1-py3-none-any.whl (11 kB)
+Requirement already satisfied: packaging>=19.0 in c:\users\camoren\anaconda3\lib\site-packages (from build) (20.9)
+Requirement already satisfied: pyparsing>=2.0.2 in c:\users\camoren\anaconda3\lib\site-packages (from packaging>=19.0->build) (2.4.7)
+Installing collected packages: tomli, pep517, build
+Successfully installed build-0.7.0 pep517-0.12.0 tomli-1.2.1
+
+(base) C:\Users\camoren>cd "C:\Users\camoren\OneDrive - Microsoft\Documents\GitHub\minervaml"
+
+(base) C:\Users\camoren\OneDrive - Microsoft\Documents\GitHub\minervaml>dir
+ Volume in drive C is Local Disk
+ Volume Serial Number is C249-7B9A
+
+ Directory of C:\Users\camoren\OneDrive - Microsoft\Documents\GitHub\minervaml
+
+22/10/2021  20:16    <DIR>          .
+22/10/2021  20:11    <DIR>          ..
+22/10/2021  19:45             1,089 LICENSE
+22/10/2021  19:58               123 pyproject.toml
+22/10/2021  20:13               265 README.md
+22/10/2021  20:13               605 setup.cfg
+22/10/2021  20:16    <DIR>          src
+22/10/2021  19:49    <DIR>          tests
+               4 File(s)          2,082 bytes
+               4 Dir(s)  394,257,596,416 bytes free
+
+(base) C:\Users\camoren\OneDrive - Microsoft\Documents\GitHub\minervaml>py -m build
+'py' is not recognized as an internal or external command,
+operable program or batch file.
+
+(base) C:\Users\camoren\OneDrive - Microsoft\Documents\GitHub\minervaml>python -m build
+* Creating venv isolated environment...
+* Installing packages in isolated environment... (pandas, setuptools>=42, wheel)
+* Getting dependencies for sdist...
+running egg_info
+creating src\minervaml.egg-info
+writing src\minervaml.egg-info\PKG-INFO
+writing dependency_links to src\minervaml.egg-info\dependency_links.txt
+writing top-level names to src\minervaml.egg-info\top_level.txt
+writing manifest file 'src\minervaml.egg-info\SOURCES.txt'
+reading manifest file 'src\minervaml.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src\minervaml.egg-info\SOURCES.txt'
+* Building sdist...
+running sdist
+running egg_info
+writing src\minervaml.egg-info\PKG-INFO
+writing dependency_links to src\minervaml.egg-info\dependency_links.txt
+writing top-level names to src\minervaml.egg-info\top_level.txt
+reading manifest file 'src\minervaml.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src\minervaml.egg-info\SOURCES.txt'
+running check
+creating minervaml-0.0.1
+creating minervaml-0.0.1\src
+creating minervaml-0.0.1\src\minervaml
+creating minervaml-0.0.1\src\minervaml.egg-info
+copying files to minervaml-0.0.1...
+copying LICENSE -> minervaml-0.0.1
+copying README.md -> minervaml-0.0.1
+copying pyproject.toml -> minervaml-0.0.1
+copying setup.cfg -> minervaml-0.0.1
+copying src\minervaml\__init__.py -> minervaml-0.0.1\src\minervaml
+copying src\minervaml\example.py -> minervaml-0.0.1\src\minervaml
+copying src\minervaml.egg-info\PKG-INFO -> minervaml-0.0.1\src\minervaml.egg-info
+copying src\minervaml.egg-info\SOURCES.txt -> minervaml-0.0.1\src\minervaml.egg-info
+copying src\minervaml.egg-info\dependency_links.txt -> minervaml-0.0.1\src\minervaml.egg-info
+copying src\minervaml.egg-info\top_level.txt -> minervaml-0.0.1\src\minervaml.egg-info
+Writing minervaml-0.0.1\setup.cfg
+Creating tar archive
+removing 'minervaml-0.0.1' (and everything under it)
+* Building wheel from sdist
+* Creating venv isolated environment...
+* Installing packages in isolated environment... (pandas, setuptools>=42, wheel)
+* Getting dependencies for wheel...
+running egg_info
+writing src\minervaml.egg-info\PKG-INFO
+writing dependency_links to src\minervaml.egg-info\dependency_links.txt
+writing top-level names to src\minervaml.egg-info\top_level.txt
+reading manifest file 'src\minervaml.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src\minervaml.egg-info\SOURCES.txt'
+* Installing packages in isolated environment... (wheel)
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build\lib
+creating build\lib\minervaml
+copying src\minervaml\example.py -> build\lib\minervaml
+copying src\minervaml\__init__.py -> build\lib\minervaml
+installing to build\bdist.win-amd64\wheel
+running install
+running install_lib
+creating build\bdist.win-amd64
+creating build\bdist.win-amd64\wheel
+creating build\bdist.win-amd64\wheel\minervaml
+copying build\lib\minervaml\example.py -> build\bdist.win-amd64\wheel\.\minervaml
+copying build\lib\minervaml\__init__.py -> build\bdist.win-amd64\wheel\.\minervaml
+running install_egg_info
+running egg_info
+writing src\minervaml.egg-info\PKG-INFO
+writing dependency_links to src\minervaml.egg-info\dependency_links.txt
+writing top-level names to src\minervaml.egg-info\top_level.txt
+reading manifest file 'src\minervaml.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src\minervaml.egg-info\SOURCES.txt'
+Copying src\minervaml.egg-info to build\bdist.win-amd64\wheel\.\minervaml-0.0.1-py3.8.egg-info
+running install_scripts
+adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+creating build\bdist.win-amd64\wheel\minervaml-0.0.1.dist-info\WHEEL
+creating 'C:\Users\camoren\OneDrive - Microsoft\Documents\GitHub\minervaml\dist\tmpamkg26at\minervaml-0.0.1-py3-none-any.whl' and adding 'build\bdist.win-amd64\wheel' to it
+adding 'minervaml/__init__.py'
+adding 'minervaml/example.py'
+adding 'minervaml-0.0.1.dist-info/LICENSE'
+adding 'minervaml-0.0.1.dist-info/METADATA'
+adding 'minervaml-0.0.1.dist-info/WHEEL'
+adding 'minervaml-0.0.1.dist-info/top_level.txt'
+adding 'minervaml-0.0.1.dist-info/RECORD'
+removing build\bdist.win-amd64\wheel
+Successfully built minervaml-0.0.1.tar.gz and minervaml-0.0.1-py3-none-any.whl
+
+(base) C:\Users\camoren\OneDrive - Microsoft\Documents\GitHub\minervaml>

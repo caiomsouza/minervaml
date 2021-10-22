@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/minervaml/__init__.py
+src/minervaml/example.py
+src/minervaml.egg-info/PKG-INFO
+src/minervaml.egg-info/SOURCES.txt
+src/minervaml.egg-info/dependency_links.txt
+src/minervaml.egg-info/top_level.txt
