@@ -2,6 +2,9 @@
 
 This Python Package is an example.
 
+# How to download the package minervaml-0.0.1.tar.gz
+https://github.com/caiomsouza/minervaml/raw/main/dist/minervaml-0.0.1.tar.gz
+
 # How to install
 ```
 pip install minervaml-0.0.1.tar.gz
