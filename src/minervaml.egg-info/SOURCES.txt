@@ -3,7 +3,9 @@ README.md
 pyproject.toml
 setup.cfg
 src/minervaml/__init__.py
-src/minervaml/example.py
+src/minervaml/add.py
+src/minervaml/eda.py
+src/minervaml/hello.py
 src/minervaml.egg-info/PKG-INFO
 src/minervaml.egg-info/SOURCES.txt
 src/minervaml.egg-info/dependency_links.txt
